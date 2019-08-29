@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactHW/build/static/css/main.6aaa7e72.chunk.css",
+    "main.js": "/reactHW/build/static/js/main.f83fa7d5.chunk.js",
+    "main.js.map": "/reactHW/build/static/js/main.f83fa7d5.chunk.js.map",
+    "runtime~main.js": "/reactHW/build/static/js/runtime~main.2a8bbbcb.js",
+    "runtime~main.js.map": "/reactHW/build/static/js/runtime~main.2a8bbbcb.js.map",
+    "static/js/2.9df407a1.chunk.js": "/reactHW/build/static/js/2.9df407a1.chunk.js",
+    "static/js/2.9df407a1.chunk.js.map": "/reactHW/build/static/js/2.9df407a1.chunk.js.map",
+    "index.html": "/reactHW/build/index.html",
+    "precache-manifest.28826718db294011cfdc0b4dfb02a169.js": "/reactHW/build/precache-manifest.28826718db294011cfdc0b4dfb02a169.js",
+    "service-worker.js": "/reactHW/build/service-worker.js",
+    "static/css/main.6aaa7e72.chunk.css.map": "/reactHW/build/static/css/main.6aaa7e72.chunk.css.map"
+  }
+}

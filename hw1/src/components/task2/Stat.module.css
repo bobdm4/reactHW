@@ -1,0 +1,33 @@
+.statsSection {
+    margin: 0;
+    background-color: #e7ecf2;
+    padding: 3% 0 3% 0;
+}
+
+.title {
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    background-color: #fff;
+}
+
+.statList {
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    width: 100%;
+    background-color: violet;
+}
+
+.label,
+.percentage {
+    text-align: center;
+    display: block;
+}
