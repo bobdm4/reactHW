@@ -2,8 +2,10 @@ import React from 'react';
 import Profile from './task1/Profile';
 import Stat from './task2/Stat';
 import statistic from './task2/statistic.json';
-import priceList from './task3/priceList.json';
 import PricingPlan from './task3/PricingPlan';
+import priceList from './task3/priceList.json';
+import TransactionHistory from './task4/TransactionHistory';
+import transactionList from './task4/transaction.json';
 
 const user = {
   name: 'Jacques Gluke',
@@ -33,6 +35,8 @@ const App = () => (
       // title=""
     />
     <PricingPlan items={priceList} />
+
+    <TransactionHistory items={transactionList} />
   </>
 );
 
