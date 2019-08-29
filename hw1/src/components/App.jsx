@@ -1,9 +1,9 @@
 import React from 'react';
 import Profile from './task1/Profile';
 import Stat from './task2/Stat';
-import stat from './task2/stat.json';
-// import items from './task3/priceList.json';
-// import PricingPlan from './task3/PricingPlan';
+import statistic from './task2/statistic.json';
+import priceList from './task3/priceList.json';
+import PricingPlan from './task3/PricingPlan';
 
 const user = {
   name: 'Jacques Gluke',
@@ -29,10 +29,10 @@ const App = () => (
       likes={user.stats.likes}
     />
     <Stat
-      stats={stat}
+      stats={statistic}
       // title=""
     />
-    {/* <PricingPlan item={items} /> */}
+    <PricingPlan items={priceList} />
   </>
 );
 

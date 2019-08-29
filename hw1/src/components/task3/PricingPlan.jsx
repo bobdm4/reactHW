@@ -1,7 +1,6 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import style from './PriсingPlan.module.css';
-// import items from './priceList.json';
 import PricingItem from './PricingItem/PricingItem';
 
 const PricingPlan = ({ items }) => (
@@ -13,4 +12,17 @@ const PricingPlan = ({ items }) => (
     ))}
   </ul>
 );
+
+PricingPlan.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      icon: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      capacity: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      price: PropTypes.number.isRequired,
+    }),
+  ).isRequired,
+};
+
 export default PricingPlan;
