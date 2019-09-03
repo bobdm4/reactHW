@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import style from './Reader.module.css';
 import Publication from './Publication/Publication';
-import Counter from './Counter';
+import Counter from './Counter/Counter';
 
 export default class Reader extends Component {
   state = {
@@ -18,6 +18,12 @@ export default class Reader extends Component {
   static propTypes = {
     step: PropTypes.number,
     startValue: PropTypes.number,
+    items: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        text: PropTypes.string.isRequired,
+      }),
+    ).isRequired,
   };
 
   handleIncrement = () => {

@@ -3,9 +3,15 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "id": "0.0.0",
+        "indicative": "^7.2.0",
         "react": "^16.9.0",
         "react-dom": "^16.9.0",
-        "react-scripts": "3.1.1"
+        "react-scripts": "3.1.1",
+        "short": "^2.6.0",
+        "short-id": "0.1.0-1",
+        "shortid": "^2.2.14",
+        "prop-types": "^15.7.2"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -42,8 +48,7 @@
         "gh-pages": "^2.1.1",
         "husky": "^3.0.4",
         "lint-staged": "^9.2.5",
-        "prettier": "^1.18.2",
-        "prop-types": "^15.7.2"
-    }
-
+        "prettier": "^1.18.2"
+    },
+    "homepage": "https://bobdm4.github.io/reactHW/hw2/build/"
 }

@@ -1,11 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Controls from './Controls';
-import style from './Reader.module.css';
+import Controls from '../Controls/Controls';
+import style from './Counter.module.css';
 
 const Counter = ({ items, elNumber, onHandleIncrement, onHandleDecrement }) => {
-  // const { value } = this.state;
   return (
     <div className={style.counter}>
       <span>
@@ -22,7 +21,12 @@ const Counter = ({ items, elNumber, onHandleIncrement, onHandleDecrement }) => {
 };
 
 Counter.propTypes = {
-  items: PropTypes.array.isRequired,
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
   elNumber: PropTypes.number.isRequired,
   onHandleIncrement: PropTypes.func.isRequired,
   onHandleDecrement: PropTypes.func.isRequired,

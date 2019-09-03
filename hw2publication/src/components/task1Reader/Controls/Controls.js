@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import style from './Reader.module.css';
+import style from './Controls.module.css';
 
 const Controls = ({
   items,
@@ -29,6 +29,13 @@ const Controls = ({
 };
 
 Controls.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
+  elNumber: PropTypes.number.isRequired,
   onHandleIncrement: PropTypes.func.isRequired,
   onHandleDecrement: PropTypes.func.isRequired,
 };
