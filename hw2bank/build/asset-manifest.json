@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactHW/hw2reader/build/static/css/main.da391890.chunk.css",
+    "main.js": "/reactHW/hw2reader/build/static/js/main.9ef040c8.chunk.js",
+    "main.js.map": "/reactHW/hw2reader/build/static/js/main.9ef040c8.chunk.js.map",
+    "runtime~main.js": "/reactHW/hw2reader/build/static/js/runtime~main.0b3c4848.js",
+    "runtime~main.js.map": "/reactHW/hw2reader/build/static/js/runtime~main.0b3c4848.js.map",
+    "static/css/2.39017165.chunk.css": "/reactHW/hw2reader/build/static/css/2.39017165.chunk.css",
+    "static/js/2.586c63dc.chunk.js": "/reactHW/hw2reader/build/static/js/2.586c63dc.chunk.js",
+    "static/js/2.586c63dc.chunk.js.map": "/reactHW/hw2reader/build/static/js/2.586c63dc.chunk.js.map",
+    "index.html": "/reactHW/hw2reader/build/index.html",
+    "precache-manifest.10915a08511a02cbfa54dbd8b7367ce2.js": "/reactHW/hw2reader/build/precache-manifest.10915a08511a02cbfa54dbd8b7367ce2.js",
+    "service-worker.js": "/reactHW/hw2reader/build/service-worker.js",
+    "static/css/2.39017165.chunk.css.map": "/reactHW/hw2reader/build/static/css/2.39017165.chunk.css.map",
+    "static/css/main.da391890.chunk.css.map": "/reactHW/hw2reader/build/static/css/main.da391890.chunk.css.map"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactHW/hw2movie/build/static/css/main.1a1e4553.chunk.css",
+    "main.js": "/reactHW/hw2movie/build/static/js/main.2a630cf7.chunk.js",
+    "main.js.map": "/reactHW/hw2movie/build/static/js/main.2a630cf7.chunk.js.map",
+    "runtime~main.js": "/reactHW/hw2movie/build/static/js/runtime~main.cad10be4.js",
+    "runtime~main.js.map": "/reactHW/hw2movie/build/static/js/runtime~main.cad10be4.js.map",
+    "static/js/2.3ed88b47.chunk.js": "/reactHW/hw2movie/build/static/js/2.3ed88b47.chunk.js",
+    "static/js/2.3ed88b47.chunk.js.map": "/reactHW/hw2movie/build/static/js/2.3ed88b47.chunk.js.map",
+    "index.html": "/reactHW/hw2movie/build/index.html",
+    "precache-manifest.221b312bed40b5e7452016299e343c9e.js": "/reactHW/hw2movie/build/precache-manifest.221b312bed40b5e7452016299e343c9e.js",
+    "service-worker.js": "/reactHW/hw2movie/build/service-worker.js",
+    "static/css/main.1a1e4553.chunk.css.map": "/reactHW/hw2movie/build/static/css/main.1a1e4553.chunk.css.map"
+  }
+}

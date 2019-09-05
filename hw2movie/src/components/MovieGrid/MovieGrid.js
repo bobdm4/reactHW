@@ -34,8 +34,8 @@ export default class MovieGrid extends Component {
             <MovieCard items={filteredMovies} />
           </ul>
         ) : (
-            <p>No matching results!</p>
-          )}
+          <p>No matching results!</p>
+        )}
       </div>
     );
   }
