@@ -17,6 +17,22 @@ export default class Dashbord extends Component {
     balanceDec: 0,
   };
 
+  // hw3
+  componentDidMount() {
+    const history = localStorage.getItem('history');
+    if (history) {
+      const state = JSON.parse(history);
+      this.setState({ ...state });
+    }
+  }
+
+  componentDidUpdate(prevProp, prevState) {
+    const { transHist } = this.state;
+    if (prevState.transHist !== transHist) {
+      localStorage.setItem('history', JSON.stringify(this.state));
+    }
+  }
+
   handleChange = e => {
     this.setState({
       [e.target.name]: e.target.value,
@@ -57,6 +73,7 @@ export default class Dashbord extends Component {
         balance: s.balance + +s.amount,
         balanceInc: s.balanceInc + +s.amount,
       }));
+      this.reset();
     } else if (btnType === 'withdraw') {
       if (+s.amount <= s.balance) {
         this.setState(prevS => ({
@@ -64,6 +81,7 @@ export default class Dashbord extends Component {
           balance: s.balance - +s.amount,
           balanceDec: s.balanceDec + +s.amount,
         }));
+        this.reset();
       } else {
         this.notifyError();
         this.reset();

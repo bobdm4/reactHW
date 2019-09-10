@@ -27,10 +27,10 @@ const TransactionHistory = ({ transHist }) => (
 );
 
 TransactionHistory.propTypes = {
-  transHist: PropTypes.arrayOf.shape(
+  transHist: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
-      amount: PropTypes.string.isRequired,
+      amount: PropTypes.number.isRequired,
       date: PropTypes.string.isRequired,
     }),
   ).isRequired,

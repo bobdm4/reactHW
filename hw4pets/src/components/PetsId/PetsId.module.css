@@ -1,0 +1,27 @@
+.itemList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.item {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}

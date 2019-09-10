@@ -1,0 +1,22 @@
+.navigation {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #444444;
+    text-align: center;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    list-style: none;
+}
+
+.a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active {
+    color: yellow;
+}

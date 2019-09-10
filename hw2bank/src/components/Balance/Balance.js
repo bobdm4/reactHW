@@ -17,8 +17,8 @@ const Balance = ({ balance, balanceInc, balanceDec }) => (
   </>
 );
 Balance.propTypes = {
-  balance: PropTypes.string.isRequired,
-  balanceInc: PropTypes.func.isRequired,
-  balanceDec: PropTypes.func.isRequired,
+  balance: PropTypes.number.isRequired,
+  balanceInc: PropTypes.number.isRequired,
+  balanceDec: PropTypes.number.isRequired,
 };
 export default Balance;

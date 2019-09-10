@@ -1,0 +1,14 @@
+.page {
+  text-align: center;
+}
+
+.page h2 {
+  font-size: 40px;
+}
+
+.p {
+  margin: 0 auto;
+  margin-top: 7%;
+  font-size: 25px;
+  width: 75%;
+}
