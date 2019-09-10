@@ -8,12 +8,12 @@ import items from './publication.json';
 const customHistory = createBrowserHistory();
 
 const App = () => (
-  <Switch>
-    <Router history={customHistory}>
+  <Router history={customHistory}>
+    <Switch>
       <Route path="/reader" render={() => <Reader items={items} />} />
-      <Route path="*" render={() => <Reader items={items} />} />
-    </Router>
-  </Switch>
+      <Route render={() => <Reader items={items} />} />
+    </Switch>
+  </Router>
 );
 
 export default App;

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9652ab649f31bc98d3dcd78b8abb1064",
+    "revision": "dd575b830416df6ef95862dadd097178",
     "url": "/reactHW/hw2reader/build/index.html"
   },
   {
-    "revision": "8ab364fd62d9231c07db",
+    "revision": "54a221cc72de827e0a23",
     "url": "/reactHW/hw2reader/build/static/css/main.3d301c0e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactHW/hw2reader/build/static/js/2.b7905287.chunk.js"
   },
   {
-    "revision": "8ab364fd62d9231c07db",
-    "url": "/reactHW/hw2reader/build/static/js/main.18ea89a7.chunk.js"
+    "revision": "54a221cc72de827e0a23",
+    "url": "/reactHW/hw2reader/build/static/js/main.0f7d4aac.chunk.js"
   },
   {
     "revision": "75d48b17e438c4a50bed",
