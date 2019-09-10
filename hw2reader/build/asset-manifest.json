@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reactHW/hw2reader/build/static/css/main.3d301c0e.chunk.css",
-    "main.js": "/reactHW/hw2reader/build/static/js/main.8c1d2eb3.chunk.js",
-    "main.js.map": "/reactHW/hw2reader/build/static/js/main.8c1d2eb3.chunk.js.map",
+    "main.js": "/reactHW/hw2reader/build/static/js/main.18ea89a7.chunk.js",
+    "main.js.map": "/reactHW/hw2reader/build/static/js/main.18ea89a7.chunk.js.map",
     "runtime~main.js": "/reactHW/hw2reader/build/static/js/runtime~main.cd68407a.js",
     "runtime~main.js.map": "/reactHW/hw2reader/build/static/js/runtime~main.cd68407a.js.map",
-    "static/js/2.85664504.chunk.js": "/reactHW/hw2reader/build/static/js/2.85664504.chunk.js",
-    "static/js/2.85664504.chunk.js.map": "/reactHW/hw2reader/build/static/js/2.85664504.chunk.js.map",
+    "static/js/2.b7905287.chunk.js": "/reactHW/hw2reader/build/static/js/2.b7905287.chunk.js",
+    "static/js/2.b7905287.chunk.js.map": "/reactHW/hw2reader/build/static/js/2.b7905287.chunk.js.map",
     "index.html": "/reactHW/hw2reader/build/index.html",
-    "precache-manifest.d3aecd114f01816389d4dd2fdd6f4b15.js": "/reactHW/hw2reader/build/precache-manifest.d3aecd114f01816389d4dd2fdd6f4b15.js",
+    "precache-manifest.ff32d3bd0699a8fdb96f3146f2dc5c59.js": "/reactHW/hw2reader/build/precache-manifest.ff32d3bd0699a8fdb96f3146f2dc5c59.js",
     "service-worker.js": "/reactHW/hw2reader/build/service-worker.js",
     "static/css/main.3d301c0e.chunk.css.map": "/reactHW/hw2reader/build/static/css/main.3d301c0e.chunk.css.map"
   }
