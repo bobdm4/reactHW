@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactHW/hw3imgsearch/build/static/css/main.961b844e.chunk.css",
+    "main.js": "/reactHW/hw3imgsearch/build/static/js/main.a05257f6.chunk.js",
+    "main.js.map": "/reactHW/hw3imgsearch/build/static/js/main.a05257f6.chunk.js.map",
+    "runtime~main.js": "/reactHW/hw3imgsearch/build/static/js/runtime~main.40dad8f0.js",
+    "runtime~main.js.map": "/reactHW/hw3imgsearch/build/static/js/runtime~main.40dad8f0.js.map",
+    "static/js/2.7d8e08e3.chunk.js": "/reactHW/hw3imgsearch/build/static/js/2.7d8e08e3.chunk.js",
+    "static/js/2.7d8e08e3.chunk.js.map": "/reactHW/hw3imgsearch/build/static/js/2.7d8e08e3.chunk.js.map",
+    "index.html": "/reactHW/hw3imgsearch/build/index.html",
+    "precache-manifest.0062f73029d2f2a1353ebd821d7ac744.js": "/reactHW/hw3imgsearch/build/precache-manifest.0062f73029d2f2a1353ebd821d7ac744.js",
+    "service-worker.js": "/reactHW/hw3imgsearch/build/service-worker.js",
+    "static/css/main.961b844e.chunk.css.map": "/reactHW/hw3imgsearch/build/static/css/main.961b844e.chunk.css.map"
+  }
+}
