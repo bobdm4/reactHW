@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Redirect } from 'react-router-dom';
 
 import style from './Reader.module.css';
 import Publication from '../Publication/Publication';
@@ -41,9 +42,14 @@ export default class Reader extends Component {
   render() {
     const { items } = this.props;
     const { elNumber } = this.state;
-
     return (
       <div className={style.reader}>
+        <Redirect
+          to={{
+            pathname: '/reader',
+            search: `?item=${elNumber}`,
+          }}
+        />
         <Publication
           title={items[elNumber - 1].title}
           text={items[elNumber - 1].text}
