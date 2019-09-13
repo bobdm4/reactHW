@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a479347ccf730d302d6616e228cce5a9",
+    "revision": "ed43cd0c1efb2139ad89b153b3a9c416",
     "url": "/reactHW/hw2bank/build/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactHW/hw2bank/build/static/css/2.39017165.chunk.css"
   },
   {
-    "revision": "7e4c35c4830e70c3e78c",
+    "revision": "860a3df49adba4245aee",
     "url": "/reactHW/hw2bank/build/static/css/main.9319b0af.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactHW/hw2bank/build/static/js/2.586c63dc.chunk.js"
   },
   {
-    "revision": "7e4c35c4830e70c3e78c",
-    "url": "/reactHW/hw2bank/build/static/js/main.9ef040c8.chunk.js"
+    "revision": "860a3df49adba4245aee",
+    "url": "/reactHW/hw2bank/build/static/js/main.3bd630a2.chunk.js"
   },
   {
     "revision": "22ccfa16ae0f49260768",
