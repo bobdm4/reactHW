@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reactHW/hw2reader/build/static/css/main.3d301c0e.chunk.css",
-    "main.js": "/reactHW/hw2reader/build/static/js/main.0f7d4aac.chunk.js",
-    "main.js.map": "/reactHW/hw2reader/build/static/js/main.0f7d4aac.chunk.js.map",
+    "main.js": "/reactHW/hw2reader/build/static/js/main.59f342a2.chunk.js",
+    "main.js.map": "/reactHW/hw2reader/build/static/js/main.59f342a2.chunk.js.map",
     "runtime~main.js": "/reactHW/hw2reader/build/static/js/runtime~main.cd68407a.js",
     "runtime~main.js.map": "/reactHW/hw2reader/build/static/js/runtime~main.cd68407a.js.map",
     "static/js/2.b7905287.chunk.js": "/reactHW/hw2reader/build/static/js/2.b7905287.chunk.js",
     "static/js/2.b7905287.chunk.js.map": "/reactHW/hw2reader/build/static/js/2.b7905287.chunk.js.map",
     "index.html": "/reactHW/hw2reader/build/index.html",
-    "precache-manifest.378ba889ec70138c97068ce03876463b.js": "/reactHW/hw2reader/build/precache-manifest.378ba889ec70138c97068ce03876463b.js",
+    "precache-manifest.07b90f2d2529ffdc153959a39916aacd.js": "/reactHW/hw2reader/build/precache-manifest.07b90f2d2529ffdc153959a39916aacd.js",
     "service-worker.js": "/reactHW/hw2reader/build/service-worker.js",
     "static/css/main.3d301c0e.chunk.css.map": "/reactHW/hw2reader/build/static/css/main.3d301c0e.chunk.css.map"
   }
