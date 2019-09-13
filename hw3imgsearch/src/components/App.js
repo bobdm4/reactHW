@@ -4,13 +4,11 @@ import * as api from '../services/imgList';
 
 import SearchForm from './SearchForm/SearchForm';
 import Gallery from './Gallery/Gallery';
-import Loader from './Loader/Loader';
 import Modal from './Modal/Modal';
 
 class App extends Component {
   state = {
     images: [],
-    isLoading: false,
     isOpen: false,
     largeImageUrl: '',
     query: '',
@@ -22,6 +20,16 @@ class App extends Component {
     window.addEventListener('keydown', this.escKeyDown);
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    const { images } = this.state;
+    if (prevState.images.length !== images.length) {
+      window.scrollBy({
+        top: window.innerHeight,
+        behavior: 'smooth',
+      });
+    }
+  }
+
   componentWillUnmount() {
     window.removeEventListener('keydown', this.escKeyDown);
   }
@@ -31,22 +39,17 @@ class App extends Component {
   };
 
   fetchImgAsyncAwait = async () => {
-    this.setState({
-      isLoading: true,
-    });
     const { query, page } = this.state;
     const responce = await api.fetchImg(query, page);
     this.setState(s => ({
       page: +s.page + 1,
       images: [...s.images, ...responce.data.hits],
-      isLoading: false,
     }));
-    window.scrollBy(0, window.innerHeight);
   };
 
   loadMore = () => {
     this.fetchImgAsyncAwait();
-    this.scrollBy();
+    window.scrollBy(0, window.innerHeight);
   };
 
   handleSubmit = e => {
@@ -73,24 +76,23 @@ class App extends Component {
     }
   };
 
-  scrollBy = () => {
-    // const top = window.innerHeight;
-    window.scrollBy({
-      top: window.innerHeight,
-      left: 0,
-      behavior: 'smooth',
-    });
-  };
+  // scrollBy = () => {
+  //   // const top = window.innerHeight;
+  //   window.scrollBy({
+  //     top: window.innerHeight,
+  //     left: 0,
+  //     behavior: 'smooth',
+  //   });
+  // };
 
   escKeyDown = () => {
-    // if (e.code !== 'Escape') return;
     this.setState({
       isOpen: false,
     });
   };
 
   render() {
-    const { images, isLoading, query, isOpen, largeImageUrl } = this.state;
+    const { images, query, isOpen, largeImageUrl } = this.state;
     return (
       <div>
         <SearchForm
@@ -98,15 +100,11 @@ class App extends Component {
           onChange={this.handleChange}
           value={query}
         />
-        {isLoading ? (
-          <Loader />
-        ) : (
-          <Gallery
-            openModal={this.openModal}
-            images={images}
-            onClick={this.loadMore}
-          />
-        )}
+        <Gallery
+          openModal={this.openModal}
+          images={images}
+          onClick={this.loadMore}
+        />
         {isOpen && <Modal onClick={this.closeModal} imgUrl={largeImageUrl} />}
       </div>
     );
