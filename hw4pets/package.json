@@ -27,7 +27,6 @@
         "deploy": "gh-pages -d build",
         "server": "json-server --delay 200 --port 4040 --watch ./server/db.json"
     },
-    "homepage": "https://bobdm4.github.io/reactHW/hw4pets/build",
     "eslintConfig": {
         "extends": "react-app"
     },
@@ -49,5 +48,6 @@
         "json-server": "^0.14.2",
         "lint-staged": "^8.1.5",
         "prettier": "^1.17.0"
-    }
+    },
+    "homepage": "https://bobdm4.github.io/reactHW/hw4pets/build"
 }
